@@ -37,10 +37,12 @@ export const Header = () => {
               Dashboard Demo
             </Button>
           </Link>
-          <Button variant="secondary" size="sm">
-            <Shield className="mr-2 h-4 w-4" />
-            Secure Login
-          </Button>
+          <Link to="/auth">
+            <Button variant="secondary" size="sm">
+              <Shield className="mr-2 h-4 w-4" />
+              Sign In
+            </Button>
+          </Link>
         </div>
       </div>
     </header>
